@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9212d64ffc69bbf7e8c633851b88e695 {
+                #map_e6bfcdff8e0e58d338269da75e189378 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_9212d64ffc69bbf7e8c633851b88e695" ></div>
+            <div class="folium-map" id="map_e6bfcdff8e0e58d338269da75e189378" ></div>
         
 </body>
 <script>
     
     
-            var map_9212d64ffc69bbf7e8c633851b88e695 = L.map(
-                "map_9212d64ffc69bbf7e8c633851b88e695",
+            var map_e6bfcdff8e0e58d338269da75e189378 = L.map(
+                "map_e6bfcdff8e0e58d338269da75e189378",
                 {
                     center: [35.83342361090082, 139.95488776231124],
                     crs: L.CRS.EPSG3857,
@@ -60,39 +60,180 @@
 
         
     
-            var tile_layer_78ab2320e7580075fc3abfdf9a7ace3e = L.tileLayer(
+            var tile_layer_3df01e5b56b70b05df4116f85ed4530a = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_9212d64ffc69bbf7e8c633851b88e695);
+            ).addTo(map_e6bfcdff8e0e58d338269da75e189378);
         
     
-            var marker_143e24f9f7487b780322d1c6105c3e21 = L.marker(
+            var marker_c90176da76916d9f39904d539814bf12 = L.marker(
                 [35.83342361090082, 139.95488776231124],
                 {}
-            ).addTo(map_9212d64ffc69bbf7e8c633851b88e695);
+            ).addTo(map_e6bfcdff8e0e58d338269da75e189378);
         
     
-        var popup_4e9a612078e5c271a19b1605e5f6383d = L.popup({"maxWidth": "100%"});
+        var popup_79f721e45d5b965e84c9c462eea8c2b3 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_17267f9839bdce9835116b50664b6f84 = $(`<div id="html_17267f9839bdce9835116b50664b6f84" style="width: 100.0%; height: 100.0%;">Reitaku University, the best place on earth!</div>`)[0];
-                popup_4e9a612078e5c271a19b1605e5f6383d.setContent(html_17267f9839bdce9835116b50664b6f84);
+                var html_dc3a8f6be47e59f715605f0516d83ed1 = $(`<div id="html_dc3a8f6be47e59f715605f0516d83ed1" style="width: 100.0%; height: 100.0%;">Reitaku University, Private University!</div>`)[0];
+                popup_79f721e45d5b965e84c9c462eea8c2b3.setContent(html_dc3a8f6be47e59f715605f0516d83ed1);
             
         
 
-        marker_143e24f9f7487b780322d1c6105c3e21.bindPopup(popup_4e9a612078e5c271a19b1605e5f6383d)
+        marker_c90176da76916d9f39904d539814bf12.bindPopup(popup_79f721e45d5b965e84c9c462eea8c2b3)
         ;
 
         
     
     
-            marker_143e24f9f7487b780322d1c6105c3e21.bindTooltip(
+            marker_c90176da76916d9f39904d539814bf12.bindTooltip(
                 `<div>
                      Reitaku University
                  </div>`,
                 {"sticky": true}
             );
         
+    
+            var circle_marker_fde9386591b02bb7b84d1eb5bbbd549a = L.circleMarker(
+                [35.83342361090082, 139.95488776231124],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0000ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_e6bfcdff8e0e58d338269da75e189378);
+        
+    
+            var marker_9c1bf425b0baa39a98ca3fcff93ff70e = L.marker(
+                [35.83256084163083, 139.95678221107946],
+                {}
+            ).addTo(map_e6bfcdff8e0e58d338269da75e189378);
+        
+    
+            var icon_5a0730be706babb8ab71c7f0a4fc40ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c1bf425b0baa39a98ca3fcff93ff70e.setIcon(icon_5a0730be706babb8ab71c7f0a4fc40ae);
+        
+    
+        var popup_185e8010c96b32c7938eb729234b3189 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_836a7832bd8058ede44b12c2e9f13b21 = $(`<div id="html_836a7832bd8058ede44b12c2e9f13b21" style="width: 100.0%; height: 100.0%;">(有)光ヶ丘駐車場</div>`)[0];
+                popup_185e8010c96b32c7938eb729234b3189.setContent(html_836a7832bd8058ede44b12c2e9f13b21);
+            
+        
+
+        marker_9c1bf425b0baa39a98ca3fcff93ff70e.bindPopup(popup_185e8010c96b32c7938eb729234b3189)
+        ;
+
+        
+    
+    
+            var marker_47404b4bfe1e82a3603bb6742c9d5c82 = L.marker(
+                [35.837859027062365, 139.95601556112456],
+                {}
+            ).addTo(map_e6bfcdff8e0e58d338269da75e189378);
+        
+    
+            var icon_a3c1190ca49351e5a1cdee4bf657f324 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_47404b4bfe1e82a3603bb6742c9d5c82.setIcon(icon_a3c1190ca49351e5a1cdee4bf657f324);
+        
+    
+        var popup_a7311349fda40cf607978ff5c9ab7e6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5db6b845b84ad12f9144883892ccca = $(`<div id="html_5f5db6b845b84ad12f9144883892ccca" style="width: 100.0%; height: 100.0%;">タイムズB</div>`)[0];
+                popup_a7311349fda40cf607978ff5c9ab7e6c.setContent(html_5f5db6b845b84ad12f9144883892ccca);
+            
+        
+
+        marker_47404b4bfe1e82a3603bb6742c9d5c82.bindPopup(popup_a7311349fda40cf607978ff5c9ab7e6c)
+        ;
+
+        
+    
+    
+            var marker_bd9492ab2f0382862070520cdb53cbfc = L.marker(
+                [35.83140455502312, 139.9569773536314],
+                {}
+            ).addTo(map_e6bfcdff8e0e58d338269da75e189378);
+        
+    
+            var icon_d2885a065cf060e47acfbc303fb7f5d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd9492ab2f0382862070520cdb53cbfc.setIcon(icon_d2885a065cf060e47acfbc303fb7f5d3);
+        
+    
+        var popup_c0661a0b67c7ded3df3ef0bd55eddeca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aca4348ea8289f6a659310832d49348e = $(`<div id="html_aca4348ea8289f6a659310832d49348e" style="width: 100.0%; height: 100.0%;">ナビパーク光ヶ丘団地第一駐車場</div>`)[0];
+                popup_c0661a0b67c7ded3df3ef0bd55eddeca.setContent(html_aca4348ea8289f6a659310832d49348e);
+            
+        
+
+        marker_bd9492ab2f0382862070520cdb53cbfc.bindPopup(popup_c0661a0b67c7ded3df3ef0bd55eddeca)
+        ;
+
+        
+    
+    
+            var marker_d822329ed42de2f7747a32365a200d55 = L.marker(
+                [35.834420130810294, 139.95968732303604],
+                {}
+            ).addTo(map_e6bfcdff8e0e58d338269da75e189378);
+        
+    
+            var icon_a33cc718c12c9904c090c291b67618f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d822329ed42de2f7747a32365a200d55.setIcon(icon_a33cc718c12c9904c090c291b67618f9);
+        
+    
+        var popup_3239e5a81b7eba1750027aa264855177 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01527d99274366cf787864dd610f9381 = $(`<div id="html_01527d99274366cf787864dd610f9381" style="width: 100.0%; height: 100.0%;">(有)光ヶ丘駐車場</div>`)[0];
+                popup_3239e5a81b7eba1750027aa264855177.setContent(html_01527d99274366cf787864dd610f9381);
+            
+        
+
+        marker_d822329ed42de2f7747a32365a200d55.bindPopup(popup_3239e5a81b7eba1750027aa264855177)
+        ;
+
+        
+    
+    
+            var marker_586407d9d51e4c816c15fabadaeadd91 = L.marker(
+                [35.82980559620053, 139.95745439170176],
+                {}
+            ).addTo(map_e6bfcdff8e0e58d338269da75e189378);
+        
+    
+            var icon_32bfad0765ea87855162f1e2b9944f4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_586407d9d51e4c816c15fabadaeadd91.setIcon(icon_32bfad0765ea87855162f1e2b9944f4b);
+        
+    
+        var popup_633d8f813799c2dda5000f5ac9608fa8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f64ca0bbbccaef16beac97218a891c4 = $(`<div id="html_6f64ca0bbbccaef16beac97218a891c4" style="width: 100.0%; height: 100.0%;">グリーンタウン光が丘 来客者用駐車場</div>`)[0];
+                popup_633d8f813799c2dda5000f5ac9608fa8.setContent(html_6f64ca0bbbccaef16beac97218a891c4);
+            
+        
+
+        marker_586407d9d51e4c816c15fabadaeadd91.bindPopup(popup_633d8f813799c2dda5000f5ac9608fa8)
+        ;
+
+        
+    
 </script>
 </html>
